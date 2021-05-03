@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Esta é uma "página landing" e uma "página dashboard" feita com React por meio do Next.js.
