@@ -27,20 +27,19 @@ body {
 
   /* header */
 
-header {
+.headerStyle {
 
   position: absolute;
-width: 1167px;
-height: 48px;
-left: 526px;
-top: 27px;
-display: flex;
+  width: 1140px;
+  height: 48px;
+  left: 150px;
+  top: 27px;
 
 
 }
 
 /* image */
-img {
+.girl-student {
 
   position: absolute;
   width: 384px;
@@ -89,8 +88,8 @@ border-radius: 0px 500px 0px 500px;
   position: absolute;
 width: 193px;
 height: 193px;
-left: 989px;
-top: 868px;
+    left: 796px;
+    top: 674.5px;
 
 background: linear-gradient(180deg, #FFC700 0%, rgba(255, 199, 0, 0.6) 100%);
 transform: rotate(-180deg);
@@ -100,17 +99,18 @@ border-radius: 100px 100px 0px 100px;
 
 }
 
-.dotted-detail {
+/* .dotted-detail {
 
   position: absolute;
-  left: 43.24%;
-  right: 53.7%;
-  top: 65.89%;
-  bottom: 31.08%;
+left: 41.18%;
+right: 54.1%;
+top: 82.24%;
+bottom: 13.98%;
 
-}
 
-.vector-row-1 {
+} */
+
+/* .vector-row-1 {
 
 
   position: absolute;
@@ -122,7 +122,7 @@ border-radius: 100px 100px 0px 100px;
 
 
 
-}
+} */
 
 
 
@@ -141,6 +141,7 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
+border-radius: 100px;
 
 }
 
@@ -160,6 +161,7 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
+border-radius: 100px;
 }
 
 .vector-1-3 {
@@ -177,6 +179,7 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
+border-radius: 100px;
 
 
 
@@ -197,6 +200,7 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
+border-radius: 100px;
 }
 
 .vector-1-5 {
@@ -214,7 +218,7 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
-
+border-radius: 100px;
 
 }
 
@@ -233,13 +237,13 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
-
+border-radius: 100px;
 
 }
 
 
 
-.vector-row-2 {
+/* .vector-row-2 {
 
   position: absolute;
 width: 67.96px;
@@ -248,9 +252,7 @@ left: 959px;
 top: 750px;
 
 
-
-
-}
+} */
 
 .vector-2-1 {
 
@@ -267,61 +269,63 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
-
+border-radius: 100px;
 
 }
 
 .vector-2-2 {
 
   position: absolute;
-width: 4px;
-height: 4px;
-right: 1255px;
-top: 750px;
+  width: 4px;
+  height: 4px;
+  right: 1242.2px;
+  top: 750px;
 
-/* Color / Another purple */
+  /* Color / Another purple */
 
-background: #9871F5;
-/* Color / Another purple */
+  background: #9871F5;
+  /* Color / Another purple */
 
-border: 1px solid #9871F5;
-box-sizing: border-box;
-
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
 
 }
 .vector-2-3 {
 
   position: absolute;
-width: 4px;
-height: 4px;
-right: 1255px;
-top: 750px;
+  width: 4px;
+  height: 4px;
+  right: 1229.42px;
+  top: 750px;
 
-/* Color / Another purple */
+  /* Color / Another purple */
 
-background: #9871F5;
-/* Color / Another purple */
+  background: #9871F5;
+  /* Color / Another purple */
 
-border: 1px solid #9871F5;
-box-sizing: border-box;
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
 
 
 }
 .vector-2-4 {
 
   position: absolute;
-width: 4px;
-height: 4px;
-right: 1255px;
-top: 750px;
+  width: 4px;
+  height: 4px;
+  right: 1216.62px;
+  top: 750px;
 
-/* Color / Another purple */
+  /* Color / Another purple */
 
-background: #9871F5;
-/* Color / Another purple */
+  background: #9871F5;
+  /* Color / Another purple */
 
-border: 1px solid #9871F5;
-box-sizing: border-box;
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
 
 
 }
@@ -330,7 +334,7 @@ box-sizing: border-box;
   position: absolute;
 width: 4px;
 height: 4px;
-right: 1255px;
+right: 1203.84px;
 top: 750px;
 
 /* Color / Another purple */
@@ -340,24 +344,313 @@ background: #9871F5;
 
 border: 1px solid #9871F5;
 box-sizing: border-box;
-
+border-radius: 100px;
 
 }
 .vector-2-6 {
 
   position: absolute;
-width: 4px;
-height: 4px;
-right: 1255px;
-top: 750px;
+  width: 4px;
+  height: 4px;
+  right: 1191.04px;
+  top: 750px;
 
-/* Color / Another purple */
+  /* Color / Another purple */
 
-background: #9871F5;
-/* Color / Another purple */
+  background: #9871F5;
+  /* Color / Another purple */
 
-border: 1px solid #9871F5;
-box-sizing: border-box;
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+}
+
+/* .vector-row-3 {
+
+  position: absolute;
+  width: 67.96px;
+  height: 4px;
+  left: 959px;
+  top: 760px;
+
+} */
+
+.vector-3-1 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1255px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+
+.vector-3-2 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1242.2px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-3-3 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1229.42px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-3-4 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1216.62px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-3-5 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1203.84px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-3-6 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1191.04px;
+  top: 760px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+
+/* .vector-row-4 {
+
+  position: absolute;
+  width: 67.96px;
+  height: 4px;
+  left: 959px;
+  top: 770px;
+
+} */
+
+.vector-4-1 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1255px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+
+.vector-4-2 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1242.2px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-4-3 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1229.42px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-4-4 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1216.62px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-4-5 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1203.84px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
+
+
+}
+.vector-4-6 {
+
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: 1191.04px;
+  top: 770px;
+
+  /* Color / Another purple */
+
+  background: #9871F5;
+  /* Color / Another purple */
+
+  border: 1px solid #9871F5;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+
+
 
 
 }
@@ -459,7 +752,7 @@ height: 19px;
 left: 745px;
 top: 41px;
 
-font-family: Open Sans;
+font-family: inherit;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -485,7 +778,7 @@ height: 19px;
 left: 874px;
 top: 41px;
 
-font-family: Open Sans;
+font-family: inherit;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -508,6 +801,23 @@ width: 165px;
 height: 48px;
 left: 1528px;
 top: 27px;
+background: #FFD74F;
+box-shadow: 1px 3px 11px -3px rgba(255, 231, 150, 0.45);
+border-radius: 4px;
+font-family: inherit;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #6F48EC;
+
+
+
 
 }
 
@@ -559,12 +869,13 @@ border-radius: 4px;
 .logo-first-letter {
 
   position: absolute;
-width: 5.26px;
-height: 22.07px;
-left: 526px;
-top: 39.53px;
+  width: 5.26px;
+  height: 22.07px;
+  left: 526px;
+  top: 39.53px;
 
-background: #FFFFFF;
+
+  background: url("/images/path330708.svg");
 
 
 
@@ -578,7 +889,8 @@ background: #FFFFFF;
   left: 526px;
   top: 39.44px;
 
-  background: #FFFFFF;
+  background: url("/images/path330710.svg");
+
 
 
 
@@ -587,13 +899,13 @@ background: #FFFFFF;
 .logo-third-letter {
 
   position: absolute;
-  width: 22.81px;
-  height: 22.12px;
-  left: 549.42px;
-  top: 39.44px;
+width: 22.81px;
+height: 22.12px;
+left: 549.42px;
+top: 39.44px;
 
-  background: #FFFFFF;
-  border: 1px solid #E40303;
+background: url("/images/path330712.svg");
+
 
 
 
@@ -607,7 +919,7 @@ background: #FFFFFF;
   left: 577.53px;
   top: 39.44px;
 
-  background: #FFFFFF;
+  background: url("/images/path330714.svg");
 
 
 
@@ -616,47 +928,79 @@ background: #FFFFFF;
 .logo-fifth-letter {
 
   position: absolute;
-width: 5.26px;
-height: 22.07px;
-left: 526px;
-top: 39.53px;
-
-background: #FFFFFF;
+  width: 6.26px;
+  height: 22.12px;
+  left: 604.72px;
+  top: 39.44px;
+  background: url("/images/path330716.svg");
 
 
 
 }
 
-.logo-group-letters {
+.logo-sixth-letter {
 
   position: absolute;
-width: 139.28px;
-height: 23px;
-left: 526px;
-top: 39px;
+  width: 21.67px;
+  height: 23px;
+  left: 616.51px;
+  top: 39px;
+
+  background: url("/images/path330718.svg");
+
+
+
 }
+
+.logo-seventh-letter {
+
+  position: absolute;
+  width: 22.12px;
+  height: 22.12px;
+  left: 643.17px;
+  top: 39.44px;
+
+  background: url("/images/path330720.svg");
+
+
+
+}
+
+
 
 /* Find your best teacher */
 
-/* .p-find-teacher {
+.find-your {
 
-  position: absolute;
-width: 334px;
-height: 102px;
-left: 1062px;
-top: 205px;
 
-font-family: Poppins;
+
+font-family: inherit;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
 line-height: 57px;
-letter-spacing: -0.06em;
+letter-spacing: -0.01em;
 
 color: #FFFFFF;
 
 
-} */
+}
+
+
+.best-teacher {
+
+  font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 57px;
+letter-spacing: -0.0em;
+
+color: #ffe89a;
+text-transform: uppercase;
+
+
+}
 
 /*Input Type what you're looking for */
 
