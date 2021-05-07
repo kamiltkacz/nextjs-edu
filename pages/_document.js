@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/_document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -13,6 +13,8 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
         </Head>
         <body>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=OpenSans&display=swap" rel="stylesheet" />
           <Main />
           <NextScript />
         </body>
