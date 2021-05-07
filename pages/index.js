@@ -25,7 +25,9 @@ export default function Home() {
 
         <img className="girl-student" src="/images/student.jpg" />
 
-        {/* <div className="dotted-detail"> */}
+
+
+
 
         {/* <div className="vector-row-1"> */}
         <div className="vector-1-1"></div>
@@ -60,7 +62,7 @@ export default function Home() {
         <div className="vector-4-5"></div>
         <div className="vector-4-6"></div>
         {/* </div> */}
-        {/* </div> */}
+
 
         <div className="shape-left-3"></div>
 
