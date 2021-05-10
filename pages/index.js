@@ -1,5 +1,9 @@
 import Head from "next/head";
 
+
+
+
+
 export default function Home() {
   return (
     <div className="container">
@@ -17,7 +21,10 @@ export default function Home() {
 
       <div className="p-works">How it works</div>
       <div className="p-about">About Us</div>
-      <button className="btn-get-started">Get Started</button>
+
+      <button className="btn-get-started" >Get Started</button>
+
+
 
       <div className="grid">
         <div className="shape-left-1"></div>
