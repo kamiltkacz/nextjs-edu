@@ -1,10 +1,13 @@
 import Head from "next/head";
+// import PopUp from "./PopUp";
+
 
 
 
 
 
 export default function Home() {
+
   return (
     <div className="container">
       <Head>
@@ -22,7 +25,15 @@ export default function Home() {
       <div className="p-works">How it works</div>
       <div className="p-about">About Us</div>
 
-      <button className="btn-get-started" >Get Started</button>
+      <button className="btn-get-started">Get Started</button>
+
+      <div className="modal">
+     <div className="modal_content">
+     <span className="close"></span>
+     <p>I'm A Pop Up!!!</p>
+    </div>
+   </div>
+
 
 
 
@@ -106,3 +117,5 @@ export default function Home() {
 
   );
 }
+
+
