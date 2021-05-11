@@ -1,5 +1,9 @@
 import Head from "next/head";
-// import PopUp from "./PopUp";
+// import Link from 'next/link';
+import React, { useState } from "react";
+
+
+
 
 
 
@@ -7,6 +11,23 @@ import Head from "next/head";
 
 
 export default function Home() {
+
+
+
+  const [showMe, setShowMe] = useState(false);
+  function toggle(){
+    setShowMe(!showMe);
+  }
+
+  function toggleOff(){
+    setShowMe(!showMe);
+  }
+
+
+
+
+
+
 
   return (
     <div className="container">
@@ -25,14 +46,31 @@ export default function Home() {
       <div className="p-works">How it works</div>
       <div className="p-about">About Us</div>
 
-      <button className="btn-get-started">Get Started</button>
 
-      <div className="modal">
-     <div className="modal_content">
-     <span className="close"></span>
-     <p>I'm A Pop Up!!!</p>
-    </div>
-   </div>
+      <button className="btn-get-started" onClick={toggle}>Get Started</button>
+      <>
+      {/*The bottom code should toggle on and off when the button is pressed*/}
+      <div className="modal-content"style={{
+        display: showMe ? "block":"none"
+      }}>
+      <div className="modal" >
+
+        <button className="eclipse-close" onClick={toggleOff}>X</button>
+        <div className="getStarted">Get Started</div>
+        <div className="justLogin">just login</div>
+        <p className="username-text">Username:</p>
+        <input type="text" className="username"></input>
+        <p className="password-text">Password:</p>
+        <input type="password" className="password"></input>
+        <button className="btn-login">Login</button>
+      </div>
+      </div>
+    </>
+
+
+
+
+
 
 
 
@@ -100,7 +138,7 @@ export default function Home() {
           className="input-search"
         ></input>
         <button className="btn-teacher">
-          <input type="checkbox" checked />
+          <input type="checkbox" readOnly />
           I'm a teacher
         </button>
         <button className="btn-student">
@@ -117,5 +155,4 @@ export default function Home() {
 
   );
 }
-
 
