@@ -1,15 +1,22 @@
-
-  class LoggingButton extends React.Component {
-    handleClick() {
-      console.log('this is:', this);
-    }
-
-    render() {
-      // This syntax ensures `this` is bound within handleClick
-      return (
-        <button onClick={() => this.handleClick()}>
-          Click me
-        </button>
-      );
-    }
-  }
+// import React from "react";
+// import PopUp from "./PopUp";
+// export default class App extends React.Component {
+//   state = {
+//    seen: false
+//    };
+//   togglePop = () => {
+//    this.setState({
+//     seen: !this.state.seen
+//    });
+//   };
+// render() {
+//   return (
+//    <div>
+//     <div className="btn" onClick={this.togglePop}>
+//       <button>New User?</button>
+//     </div>
+//     {this.state.seen ? <PopUp toggle={this.togglePop} /> : null}
+//    </div>
+//   );
+//  }
+// }
