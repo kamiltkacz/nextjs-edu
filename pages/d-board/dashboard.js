@@ -1,3 +1,3 @@
 export default function MyClasses() {
-    return <h1>My Classes</h1>
+    return <h1>Hello Student</h1>
   }
